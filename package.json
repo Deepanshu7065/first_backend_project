@@ -1,20 +1,36 @@
 {
-  "name": "mybackendproject",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "this is my first backend project",
-  "type": "module",
+  "description": "practise ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "start": "nodemon --exec tsx src/index.ts"
   },
-  "keywords": [
-    "javascript",
-    "backend"
-  ],
-  "author": "deepanshu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepanshu7065/first_backend_project.git"
+  },
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/Deepanshu7065/first_backend_project/issues"
+  },
+  "homepage": "https://github.com/Deepanshu7065/first_backend_project#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-kit": "^0.31.10",
+    "drizzle-orm": "^0.45.2",
+    "express": "^5.2.1",
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.9",
-    "prettier": "^3.4.2"
+    "pg": "^8.23.0",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/pg": "^8.21.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
   }
 }
